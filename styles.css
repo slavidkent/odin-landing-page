@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 100px 0px;
-  gap:2rem;
+  gap: 2rem;
 }
 
 .hero-texts {
@@ -146,7 +146,7 @@ body {
 }
 .text-wrap > h3 {
   color: #f9faf8;
-  margin:0;
+  margin: 0;
   font-size: 24px;
 }
 .text-wrap > p {
@@ -163,4 +163,16 @@ body {
   border: 2px solid white;
   font-size: 18px;
   font-weight: bold;
+}
+
+#footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#footer p{
+  color: #f9faf8;
+  font-size: 18px;
 }
