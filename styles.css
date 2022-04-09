@@ -5,12 +5,16 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
 #header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+
+#header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2937;
   padding: 0px 100px;
 }
 .header-logo-text {
@@ -31,11 +35,10 @@ ul a {
 }
 
 #hero {
-  background-color: #1f2937;
   color: #e5e7eb;
   padding: 100px 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 5rem;
 }
@@ -44,7 +47,7 @@ ul a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  flex-basis: 50%;
   max-width: 500px;
 }
 #hero h2 {
@@ -62,7 +65,7 @@ ul a {
   padding: 8px 30px;
 }
 .hero-img-box {
-  width: 50%;
+  flex-basis: 50%;
   max-width: 500px;
   align-self: stretch;
 }
@@ -83,7 +86,6 @@ ul a {
 #info h2{
   font-size: 36px;
   font-weight: bolder;
-  color: #1f2937;
 }
 .info-img-collections{
   display: flex;
@@ -122,4 +124,40 @@ ul a {
   font-weight: bold;
   font-size: 24px;
   font-style: normal;
+}
+#sign-up{
+  padding: 100px;
+}
+
+#sign-up-box {
+  display: flex;
+  justify-content: space-between;
+  width:900px;
+  margin:0 auto;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 20px 100px;
+  box-sizing: border-box;
+}
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.text-wrap h3{
+  color: #f9faf8;
+  border: 1px solid red;
+}
+.text-wrap p{
+  color: #e5e7eb;
+  border: 1px solid red;
+
+}
+#sign-up-box button{
+  color: #f9faf8;
+  background-color: #3882f6;
+  align-self: center;
+  padding: 8px 30px;
+  border-radius: 8px;
+  border:1px solid white;
 }
